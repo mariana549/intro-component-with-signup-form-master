@@ -6,5 +6,7 @@
    --DarkBlue: hsl(249, 10%, 26%);
    --GrayishBlue: hsl(246, 25%, 77%);
 
-   --font: "Poppins";
+   --error: red;
+
+   --font: 'Poppins', sans-serif;
 }

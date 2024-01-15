@@ -12,12 +12,12 @@
 
 .container {
    display: grid;
-   grid-template-columns: 2, 1fr;
    grid-template-areas: 
    "texto button"
    "texto formulario"
    ;
-   width: 80%;
+   max-width: 80%;
+   font-family: var(--font);
 }
 
 .texto {
@@ -26,22 +26,46 @@
    justify-content: center;
    grid-area: texto;
    color: white;
+   max-width: 800px;
+   margin-right:50px;
+}
+
+.titulo-principal{
+   font-size: 3.1rem;
+   line-height: 55px;
+   font-weight: 700;
+   padding-bottom: 20px;
+}
+
+.paragrafro {
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+.button, .formulario, .inputs, .buttonForm{
+   border-radius: 5px;
+}
+
+.button, .formulario {
+   box-shadow: 0px 4px 1px 0px #00000039;
+
 }
 
 .button {
    grid-area: button;
    background-color: var(--cor-button);
-   color: white;
+   color: var(--GrayishBlue);
+   font-size: 1rem;
    text-align: center;
+   font-weight: 400;
    padding: 10px;
-   margin-bottom: 10px;
-   box-shadow: 0px 3px 2px 0px #00000034;
+   margin-bottom: 15px;
    text-decoration: none;
-   width: 50%;
 }
 
 .negrito {
-   font-weight: bolder;
+   color: white;
+   font-weight: 600;
 }
 
 .formulario {
@@ -50,18 +74,32 @@
    flex-direction: column;
    gap: 10px;
    background-color: white;
-   padding: 15px;
-   border-radius: 5px;
-   box-shadow: 0px 3px 2px 0px #00000034;
-   width: 50%;
+   padding: 30px;
+;}
+
+.form{
+   position: relative;
+
 }
 
 .inputs {
    width: 100%;
-   margin-bottom: 5px;
-   padding: 5px 0px 5px 15px;
-   border-radius: 5px;
-   border: 1px solid #00000074;
+   margin-bottom: 15px;
+   padding: 
+   15px 15px 15px 20px;
+   border: 2px solid var(--DarkBlue);
+   font-family: var(--font);
+   font-weight: 600;   
+}
+
+.error{
+   border: 1px solid var(--error);
+}
+
+.inputs::after {
+   background: url(/src/images/icon-error.svg) no-repeat;
+   height: max-content;
+   position: absolute;
 }
 
 .buttonForm {
@@ -69,7 +107,6 @@
    padding: 6px;
    text-align: center;
    color: white;
-   border-radius: 5px;
 }
 
 .informacoes-form {
@@ -78,5 +115,5 @@
 }
 
 .destaque {
-   color: red;
+   color: firebrick;
 }

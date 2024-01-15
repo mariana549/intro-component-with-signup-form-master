@@ -31,19 +31,19 @@
 }
 
 .titulo-principal{
-   font-size: 3.1rem;
-   line-height: 55px;
+   font-size: 4.5rem;
+   line-height: 75px;
    font-weight: 700;
    padding-bottom: 20px;
 }
 
 .paragrafro {
-   font-size: 1rem;
+   font-size: 1.5rem;
    font-weight: 400;
 }
 
 .button, .formulario, .inputs, .buttonForm{
-   border-radius: 5px;
+   border-radius: 8px;
 }
 
 .button, .formulario {
@@ -58,7 +58,7 @@
    font-size: 1rem;
    text-align: center;
    font-weight: 400;
-   padding: 10px;
+   padding: 20px;
    margin-bottom: 15px;
    text-decoration: none;
 }
@@ -70,50 +70,59 @@
 
 .formulario {
    grid-area: formulario;
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
    background-color: white;
-   padding: 30px;
+   padding: 45px;
+   max-width: 750px;
 ;}
 
 .form{
-   position: relative;
-
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 600px;
+   height: 500px; 
 }
 
 .inputs {
+   position: relative; 
    width: 100%;
-   margin-bottom: 15px;
-   padding: 
-   15px 15px 15px 20px;
-   border: 2px solid var(--DarkBlue);
+   padding: 20px 25px 20px 25px;
+   border: 2px solid var(--GrayishBlue);
    font-family: var(--font);
-   font-weight: 600;   
+   font-size: 1.1rem;
+   font-weight: 600;  
 }
 
 .error{
-   border: 1px solid var(--error);
+   border: 1px solid var(--destaque);
 }
 
 .inputs::after {
-   background: url(/src/images/icon-error.svg) no-repeat;
-   height: max-content;
+   content: " ";
+   background: url(../images/icon-error.svg);
+   width: 50px;
+   height: 50px;
    position: absolute;
 }
 
 .buttonForm {
    background-color: var(--cor-button-form);
-   padding: 6px;
+   padding: 20px;
+   font: var(--font);
+   font-weight: 500;
    text-align: center;
    color: white;
+   text-transform: uppercase;
+   box-shadow: inset 0px -3px 5px hsl(154, 63%, 37%);
 }
 
 .informacoes-form {
-   color: gray;
-   font-size: 8px;
+   color: var(--GrayishBlue);
+   font-size: 12px;
+   text-align: center;
 }
 
 .destaque {
-   color: firebrick;
+   color: var(--destaque);
+   font-weight: 600;
 }

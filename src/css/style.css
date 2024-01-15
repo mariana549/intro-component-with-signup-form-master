@@ -1,0 +1,82 @@
+.main {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: var(--cor-fundo) url(/src/images/bg-intro-desktop.png) no-repeat center center;
+   background-size: cover;
+
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 2, 1fr;
+   grid-template-areas: 
+   "texto button"
+   "texto formulario"
+   ;
+   width: 80%;
+}
+
+.texto {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   grid-area: texto;
+   color: white;
+}
+
+.button {
+   grid-area: button;
+   background-color: var(--cor-button);
+   color: white;
+   text-align: center;
+   padding: 10px;
+   margin-bottom: 10px;
+   box-shadow: 0px 3px 2px 0px #00000034;
+   text-decoration: none;
+   width: 50%;
+}
+
+.negrito {
+   font-weight: bolder;
+}
+
+.formulario {
+   grid-area: formulario;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   background-color: white;
+   padding: 15px;
+   border-radius: 5px;
+   box-shadow: 0px 3px 2px 0px #00000034;
+   width: 50%;
+}
+
+.inputs {
+   width: 100%;
+   margin-bottom: 5px;
+   padding: 5px 0px 5px 15px;
+   border-radius: 5px;
+   border: 1px solid #00000074;
+}
+
+.buttonForm {
+   background-color: var(--cor-button-form);
+   padding: 6px;
+   text-align: center;
+   color: white;
+   border-radius: 5px;
+}
+
+.informacoes-form {
+   color: gray;
+   font-size: 8px;
+}
+
+.destaque {
+   color: red;
+}

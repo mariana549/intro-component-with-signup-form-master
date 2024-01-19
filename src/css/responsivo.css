@@ -18,7 +18,7 @@
    }
    
    .formulario {
-      width: 550px;
+      max-width: 550px;
       padding: 30px;
    }
    
@@ -29,7 +29,7 @@
 
 }
 
-@media  (max-width: 600px) {   
+@media  (max-width: 900px) {   
    .container {
       display: flex;
       flex-direction: column;
@@ -61,7 +61,7 @@
    }
    
    .formulario {
-      width: 100%;
+      max-width: 100%;
       padding: 30px;
    }
    

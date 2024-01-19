@@ -30,6 +30,7 @@ Para executar este projeto localmente, você pode clonar o repositório do GitHu
 
 Você pode ver uma demonstração deste projeto no seguinte link: [Intro component with signup form using JavaScript](https://intro-component-with-signup-form-master-peach.vercel.app/) 🌐
 
+
 ## Autor
 
-Este projeto foi criado por [Mariana]() como parte do desafio do Frontend Mentor. Você pode entrar em contato comigo pelo [Perfil-linkedin](). 👋
+Este projeto foi criado por [Mariana](https://github.com/mariana549) como parte do desafio do Frontend Mentor. Você pode entrar em contato comigo pelo [Perfil-linkedin](https://www.linkedin.com/in/mariana-ant%C3%B4nia-6694b5245/). 👋

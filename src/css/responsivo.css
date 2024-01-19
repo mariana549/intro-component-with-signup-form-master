@@ -1,78 +1,95 @@
-@media  (max-width: 1440px) {   
+@media (max-width: 1440px) {
+   .titulo-principal {
+     font-size: 3.5rem;
+     line-height: 3.6875rem;
+   }
+ 
+   .paragrafo {
+     font-size: 1.25rem;
+   }
+ 
    .container {
-      max-width: 80%;
+     max-width: 90%;
    }
 
-   .texto{
-      margin-right: 40px;
-   }
-
-   .titulo-principal{
-      font-size: 3.5rem;
-      line-height: 65px;
-      margin-bottom: 10px;   
-   }
-   
-   .paragrafro {
-      font-size: 1.3rem;
-   }
-   
    .formulario {
-      max-width: 550px;
-      padding: 30px;
-   }
-   
-   .form{
-      width: 100%;
-      height: 450px;
+      padding: 35px;
    }
 
-}
-
-@media  (max-width: 900px) {   
-   .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+   .form {
+     width: 100%;
+     min-height: 0;
    }
 
-   .texto {
-      width: 100%;
-      margin-bottom: 25px;
-      margin-right: 0;
-      text-align: center;
-   }
-
-   .titulo-principal{
-      font-size: 2.5rem;
-      line-height: 50px;
-      font-weight: 700;
-      margin-bottom: 10px;   
-   }
-   
-   .paragrafro {
-      font-size: 1.2rem;
-   }
-   
-   .button {
+   .inputs {
       font-size: 1.1rem;
-      padding: 15px 120px ;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .buttonForm {
+      padding: 15px;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  
+    .informacoes-form {
+      font-size: 0.8rem;
+    }
+ }
+ 
+ @media (max-width: 900px) {
+   .container {
+     grid-template-areas: 
+       "texto"
+       "button"
+       "formulario";
    }
-   
-   .formulario {
-      max-width: 100%;
-      padding: 30px;
-   }
-   
-   .form{
-      justify-content: space-between;
-      width: 100%;
-      height: 450px;
+   .texto {
+      text-align: center;
+      margin-bottom: 17px;
    }
 
-   .informacoes-form {
-      font-size: 0.8rem;
-      padding: 0px 50px;
+   .texto, .formulario {
+     max-width: 100%;
+     margin-right: 0;
    }
-}
+
+   .titulo-principal {
+     font-size: 2.5rem;
+     line-height: 2.6875rem;
+   }
+
+   .paragrafro {
+     font-size: 1rem;
+   }
+
+   .button {
+     padding: 15px;
+     font-size: 0.875rem;
+   }
+
+   .formulario {
+      padding: 28px;
+   }
+
+   .form {
+     width: 100%;
+     min-height: 0;
+   }
+
+   .inputs {
+     font-size: 0.875rem;
+     margin-bottom: 10px;
+   }
+ 
+   .buttonForm {
+     padding: 15px;
+     font-size: 0.75rem;
+     margin-bottom: 10px;
+   }
+ 
+   .informacoes-form {
+     font-size: 0.625rem;
+   }
+ }
+ 

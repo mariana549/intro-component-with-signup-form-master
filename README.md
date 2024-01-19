@@ -30,6 +30,12 @@ Para executar este projeto localmente, você pode clonar o repositório do GitHu
 
 Você pode ver uma demonstração deste projeto no seguinte link: [Intro component with signup form using JavaScript](https://intro-component-with-signup-form-master-peach.vercel.app/) 🌐
 
+![computador](/src/images/capturas/computador.png)
+
+![ipad](/src/images/capturas/ipad.png)
+
+br
+![celular](/src/images/capturas/celular.png)
 
 ## Autor
 

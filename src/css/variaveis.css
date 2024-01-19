@@ -3,7 +3,7 @@
    --cor-button-form: hsl(154, 59%, 51%);
    --cor-button: hsl(248, 32%, 49%);
 
-   --DarkBlue: hsl(249, 10%, 26%);
+   --DarkBlue: hsla(249, 10%, 26%, 0.712);
    --GrayishBlue: hsl(246, 25%, 77%);
 
    --destaque: red;

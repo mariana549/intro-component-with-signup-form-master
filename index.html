@@ -18,7 +18,7 @@
 
 </head>
 <body>
-<mai class="main">
+<main class="main">
     <div class="container">
       <div class="texto">
         <h1 class="titulo-principal">Learn to code by watching others</h1>
@@ -32,19 +32,42 @@
       
       <div class="formulario">
 
-      <form action="src/js/index.js" method="post" class="form">
-          <input type="text" name="Fistname" id="Fistname" placeholder="First Name" class="inputs">
-          <input type="text" name="Lastname" id="Lastname" placeholder="Last Name" class="inputs">
-          <input type="email" name="email" id="email" placeholder="Email Address" class="inputs">
-          <input type="password" name="password" id="password" placeholder="Password" class="inputs">
+      <form  method="post" class="form">      
+          <div class="grupoInformacoesInputs">
+            <div class="containerInputs">
+              <input type="text" name="Fistname" placeholder="First Name" class="inputs">
+            </div>
+            <small class="errorMensagem">First Name connout be empty</small>
+          </div>
+        
+          <div class="grupoInformacoesInputs">
+            <div class="containerInputs">
+              <input type="text" name="Lastname" placeholder="Last Name" class="inputs">
+            </div>
+            <small class="errorMensagem">Last Name connout be empty</small>
+          </div>
 
-          <a href="#" class="buttonForm">Claim your free trial</a>
+          <div class="grupoInformacoesInputs">
+            <div class="containerInputs">
+              <input type="email" name="email" placeholder="Email Address" class="inputs">
+            </div>
+            <small class="errorMensagem">Looks like this is not email</small>
+          </div>
+
+          <div class="grupoInformacoesInputs">
+            <div class="containerInputs">
+              <input type="password" name="password" placeholder="Password" class="inputs">
+            </div>
+            <small class="errorMensagem">Password connout be empty</small>
+          </div>
+
+          <button type="button" class="buttonForm" onclick="inputsVerificar()">Claim your free trial</button>
 
           <p class="informacoes-form">By clicking the button, you are agreeing to our <a href="#" class="destaque">Terms and Services</a></p>
       </form>     
     </div>
   </div>
-</mai>
+</main>
 <script src="src/js/index.js"></script>
 </body>
 </html>

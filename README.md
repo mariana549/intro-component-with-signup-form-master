@@ -34,7 +34,8 @@ Você pode ver uma demonstração deste projeto no seguinte link: [Intro compone
 
 ![ipad](/src/images/capturas/ipad.png)
 
-br
+<br>
+
 ![celular](/src/images/capturas/celular.png)
 
 ## Autor
